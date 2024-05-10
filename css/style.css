@@ -10,13 +10,13 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    --color: #f56ac7;
+    --color: #900C3E;
     background: linear-gradient(95deg, var(--color) 25%, transparent 25%) -50px 0,
           linear-gradient(-15deg, var(--color) 25%, transparent 25%) -50px 0,
           linear-gradient(25deg, transparent 75%, var(--color) 75%) -50px 0,
           linear-gradient(-45deg, transparent 75%, var(--color) 75%) -50px 0,
           linear-gradient(-15deg, transparent 75%, var(--color) 75%) -50px 0;
-    background-color: #fa9bf5;
+    background-color: #C70039;
     background-size: 40px 40px;
 }
 .greetings{
@@ -32,7 +32,7 @@ body{
         text-shadow: 0 0 12px #ff0000, 0 0 50px #ff0000, 0 0 100px #ff0000;
     }
     10%, 90%{
-        color: #e5e5e5;
+        color: #FFC300;
         text-shadow: none;
     }
 }
@@ -57,7 +57,7 @@ body{
 .button a{
     text-decoration: none;
     font-size: 1rem;
-    color: #111;
+    color: #FFC300;
 }
 
 @media screen and (max-width:574px){
@@ -77,12 +77,12 @@ body{
 }
 
 .description{
-    color: #ff0000;
+    color: #ffC300;
 }
 
 /* Estilo para el botón */
 .button button {
-    background-color: rgb(255, 0, 38); /* Fondo amarillo */
+    background-color: #ba0c4f; /* Fondo amarillo */
     border: none; /* Sin bordes */
     padding: 10px 20px; /* Ajusta el relleno según tu preferencia */
     font-size: 18px; /* Tamaño de fuente */
@@ -95,7 +95,7 @@ body{
   /* Estilo para el enlace dentro del botón */
   .button button a {
     text-decoration: none; /* Elimina el subrayado del enlace */
-    color: inherit; /* Hereda el color del texto del botón */
+    color: #ffC300; /* Hereda el color del texto del botón */
   }
   
   /* Efecto de resplandor al pasar el cursor sobre el botón */
